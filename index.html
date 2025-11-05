@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine.run - Download Movies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/CINE_RUN.logo.png" alt="Cine.Run" class="logo-image">
+                </div>
+                <nav class="nav-menu">
+                    <a href="#best-movies" class="nav-link">BEST MOVIES</a>
+                    <a href="#upcoming-movies" class="nav-link">NEW MOVIES</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search movies..." class="search-input">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <button class="language-toggle" id="languageToggle">🌐</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Watch For Free  The Best & Latest Movies</h2>
+                <p class="hero-subtitle">Discover and watch your favorite movies in HD quality</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Movies Section -->
+    <section id="best-movies" class="movies-section">
+        <div class="container">
+            <h3 class="section-title">Best Movies</h3>
+            <div class="movies-grid" id="bestMovies">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/12 Angry Men.jfif" alt="12 Angry Men">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852653">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">12 Angry Men</h4>
+                    <p class="movie-info">HD | 3h 2min | Superhero</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Pulp Fiction.jfif" alt="Pulp Fiction">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852655">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Pulp Fiction</h4>
+                    <p class="movie-info">HD | 2h 28min | Superhero</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Good Will Hunting.jfif" alt="Good Will Hunting">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852658">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Good Will Hunting</h4>
+                    <p class="movie-info">HD | 2h 2min | Drama</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Memento.jfif" alt="Memento">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852663">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Memento</h4>
+                    <p class="movie-info">HD | 2h 56min | Superhero</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/28 Days Later.jfif" alt="28 Days Later">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852663">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">28 Days Later</h4>
+                    <p class="movie-info">HD | 3h | Drama</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/The Hunt for Red October.jfif" alt="The Hunt for Red October">
+                        <div class="movie-overlay">
+                            <button class="download-btn" data-url="https://singingfiles.com/1852665">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">The Hunt for Red October</h4>
+                    <p class="movie-info">HD | Series | Sci-Fi</p>
+                </div>
+                <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/The Texas Chain Saw Massacre.jfif" alt="The Texas Chain Saw Massacre">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852668">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">The Texas Chain Saw Massacre</h4>
+                     <p class="movie-info">HD | 2h 28min | Sci-Fi</p>
+                 </div>
+                <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/Nosferatu (1922).jfif" alt="Nosferatu (1922)">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852669">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">Nosferatu (1922)</h4>
+                     <p class="movie-info">HD | 1h 45min | Animation</p>
+                 </div>
+                <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/Sleepy Hollow.jfif" alt="Sleepy Hollow">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852673">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">Sleepy Hollow</h4>
+                     <p class="movie-info">HD | 1h 49min | Animation</p>
+                 </div>
+                <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/The Running Man.jfif" alt="The Running Man">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852674">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">The Running Man</h4>
+                     <p class="movie-info">HD | 1h 28min | Animation</p>
+                 </div>
+                 <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/The Toxic Avenger.jfif" alt="The Toxic Avenger">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852676">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">The Toxic Avenger</h4>
+                     <p class="movie-info">HD | 1h 28min | Animation</p>
+                 </div>
+                 <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/The Grudge.jfif" alt="The Grudge">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852678">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">The Grudge</h4>
+                     <p class="movie-info">HD | 1h 28min | Animation</p>
+                 </div>
+                 <div class="movie-card">
+                     <div class="movie-poster">
+                         <img src="images/Pet Sematary (1989).jfif" alt="Pet Sematary (1989)">
+                         <div class="movie-overlay">
+                             <button class="download-btn" data-url="https://singingfiles.com/1852682">WATCH</button>
+                         </div>
+                     </div>
+                     <h4 class="movie-title">Pet Sematary (1989)</h4>
+                     <p class="movie-info">HD | 1h 28min | Animation</p>
+                 </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- New Movies Section -->
+    <section id="upcoming-movies" class="movies-section upcoming">
+        <div class="container">
+            <h3 class="section-title">New Movies</h3>
+            <div class="movies-grid" id="upcomingMovies">
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Playing with fire.jfif" alt="Playing with fire">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853343">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Playing with fire</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Showdown at the grand.jfif" alt="Showdown at the grand">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853344">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Showdown at the grand</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Faceless after dark.jfif" alt="Faceless after dark">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853345">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Faceless after dark</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Succubus.jfif" alt="Succubus">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853346">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Succubus</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/On Fire.jfif" alt="On Fire">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853347">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">On Fire</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Cyrano.jfif" alt="Cyrano">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853348">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Cyrano</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Copshop.jfif" alt="Copshop">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853349">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Copshop</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-poster">
+                        <img src="images/Hotel Artemis.jfif" alt="Hotel Artemis">
+                        <div class="movie-overlay">
+                            <button class="notify-btn" data-url="https://singingfiles.com/1853350">WATCH</button>
+                        </div>
+                    </div>
+                    <h4 class="movie-title">Hotel Artemis</h4>
+                    <p class="movie-info">Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#english">English Movies</a></li>
+                        <li><a href="#french">French Movies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" class="social-link"> Facebook</a>
+                        <a href="https://twitter.com" target="_blank" class="social-link"> X (Twitter)</a>
+                        <a href="https://instagram.com" target="_blank" class="social-link"> Instagram</a>
+                        <a href="https://tiktok.com" target="_blank" class="social-link"> TikTok</a>
+                        <a href="https://youtube.com" target="_blank" class="social-link"> YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Cine.run. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
